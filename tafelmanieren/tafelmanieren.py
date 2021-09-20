@@ -1,15 +1,32 @@
 a = range(1,11)
 for a in range(1,11):
-    print(a * 8)
+    print(str(a) +"x3 = " + str(a*3))
 
-
-
+range(10,101, 2)
+print("")
+print("Raket")
 x = range(31,0)
 
-for n in x:
-    print(n)
+for x in range(31):
+    print(str(x))
 
-uur_Am = range(0,13)
-uur_Pm = range(12,24)
-ochtend= "Ochtendtijd is" + uur_Am
+print("Raketlancering")
+print("")
+print("")
+print("Tijden van de dag")
+am=range(0,12)
+for am in range(0,12):
+    print(str(am) + " A.M")
+    
+pm=range(12,25)
+for pm in range(12,24):
+    print(str(pm)+ " P.M")
 
+
+    
+
+
+pm=range(12,25)
+
+
+    

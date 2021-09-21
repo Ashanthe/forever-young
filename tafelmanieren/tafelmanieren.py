@@ -13,7 +13,7 @@ for x in range(31):
 print("Raketlancering")
 print("")
 print("")
-print("Tijden van de dag")
+print("Tijden van de dag:")
 am=range(0,12)
 for am in range(0,12):
     print(str(am) + " A.M")
@@ -22,11 +22,17 @@ pm=range(12,25)
 for pm in range(12,24):
     print(str(pm)+ " P.M")
 
+sum = 0
+for c in range(5):
+    sum = sum  + c
+print(c)
+
+print(sum)
+
 
     
 
 
-pm=range(12,25)
 
 
     
